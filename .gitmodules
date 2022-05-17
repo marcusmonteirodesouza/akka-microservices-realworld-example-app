@@ -1,0 +1,3 @@
+[submodule "akka-microservices-realword-example-app-users"]
+	path = akka-microservices-realword-example-app-users
+	url = https://github.com/marcusmonteirodesouza/akka-microservices-realword-example-app-users.git
