@@ -14,3 +14,7 @@ This is the top-level repository containing the common infrastructure provisioni
 > 
 
 # Getting started
+
+1. Install [terraform](https://www.terraform.io/)
+1. Go to `deployment/gcp/environments/dev/bootstrap`. Create `terraform.tfvars` file and [add your variables' definitions](https://www.terraform.io/language/values/variables#variable-definitions-tfvars-files). Run the `run.sh` script.
+1. Go to `deployment/gcp/environments/dev`. Create a `terraform.tfvars` file and add your variables' definitions. Run `terraform init` and then `terraform apply`.
