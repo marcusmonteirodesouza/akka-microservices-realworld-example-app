@@ -15,6 +15,11 @@ This is the top-level repository containing the common infrastructure provisioni
 
 # Getting started
 
-1. Install [terraform](https://www.terraform.io/)
-1. Go to `deployment/gcp/environments/dev/bootstrap`. Create `terraform.tfvars` file and [add your variables' definitions](https://www.terraform.io/language/values/variables#variable-definitions-tfvars-files). Run the `run.sh` script.
-1. Go to `deployment/gcp/environments/dev`. Create a `terraform.tfvars` file and add your variables' definitions. Run `terraform init` and then `terraform apply`.
+1. Install the [gcloud CLI](https://cloud.google.com/sdk/docs/install)
+1. Install [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+1. Go to `deployment/gcp/environments/dev/bootstrap`. 
+1. Create a `terraform.tfvars` file and [add your variables' definitions](https://www.terraform.io/language/values/variables#variable-definitions-tfvars-files). 
+1. Run the `run.sh` script.
+1. Go to `deployment/gcp/environments/dev`. 
+1. Create a `terraform.tfvars` file and add your variables' definitions. 
+1. Run `terraform init` and then `terraform apply`.
