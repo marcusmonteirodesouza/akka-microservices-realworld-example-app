@@ -14,11 +14,3 @@ resource "google_compute_route" "default_internet_gateway" {
   network          = google_compute_network.vpc_network.name
   next_hop_gateway = "default-internet-gateway"
 }
-
-resource "google_compute_subnetwork" "subnetworks" {
-  for_each      = var.subnetworks
-  name          = each.value.name
-  region        = each.value.region
-  ip_cidr_range = each.value.ip_cidr_range
-  network       = google_compute_network.vpc_network.id
-}
